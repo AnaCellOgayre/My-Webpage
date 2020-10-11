@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-size: 62.5%;
+    font-family: "Rockwell" ;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-image: url("WB01741L.GIF") ;
+    max-width: auto;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: lightpink;
+    position: fixed;
+}
+nav{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    color: linen;
+}
+ul{
+    width: auto;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Rockwell";
+    font-size: 1.2vw;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+li a:hover {
+    transition: 0.5s;
+    background-color: #555;
+    color: white;
+}
+
+
+img{
+
+border-radius: 8px;
+margin-left: 38%;
+margin-top: 5%;
+width: 25%;
+height: 25%;
+
+}
+#hello{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content h1 {
+    margin: 1%;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    border-style: solid;
+    border-color: green;
+    
+    
+}
+.content h2{
+    font-size: 25px;
+    text-align: center;
+
+}
+.content h3 {
+    text-align: center;   
+    font-size: 2rem;
+}
+#basic{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+.content h4 {
+    font-size: 3rem;
+    text-align: left;
+    color: rgb(14, 13, 13);
+}
+.content p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(14, 13, 13);
+}
+
+#hobbies{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+#gallery{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+div.img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+}
